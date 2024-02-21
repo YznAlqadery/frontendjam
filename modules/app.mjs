@@ -1,5 +1,5 @@
 import Garage from './garage.mjs'
 
-const carOne = new Garage(true);
+const carOne = new Garage(true,998709);
 carOne.enterGarage()
-carOne.leaveGarage()
+carOne.exitGarage()

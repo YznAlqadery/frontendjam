@@ -1,8 +1,9 @@
 class Garage{
     sensor;
     plateNumber;
-    constructor(sensor){
+    constructor(sensor,plateNumber){
         this.sensor = sensor;
+        this.plateNumber = plateNumber
     }
     //Enter garage method
     enterGarage = () =>{
